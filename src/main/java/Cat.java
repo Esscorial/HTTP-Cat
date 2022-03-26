@@ -5,11 +5,6 @@ public class Cat {
     private final String text;
     private final String type;
     private final String user;
-
-    public Integer getUpvotes() {
-        return upvotes;
-    }
-
     private final Integer upvotes;
 
     public Cat(
@@ -23,6 +18,10 @@ public class Cat {
         this.type = type;
         this.user = user;
         this.upvotes = upvotes;
+    }
+    
+     public Integer getUpvotes() {
+        return upvotes;
     }
 
     public String getId() {
